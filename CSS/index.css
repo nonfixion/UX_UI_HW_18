@@ -37,12 +37,12 @@ header ul {
   }
   
 .about {
-  margin: 60px;
+  margin: 40px;
   width: 750px;
   }
   
 img .photo {
-  margin: 60px;
+  margin: 40px;
   }
   
   
@@ -93,7 +93,77 @@ button:hover {
   background-color: #770024;
   color: #DEE0CC;
   }
-  
+
+.mySkills {
+  background-color: #D7E788;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: 'Aleo', serif;
+  font-size: 40px;
+  color: #281522;
+  letter-spacing: 5px;
+}
+
+.skillsList {
+  display: flex;
+}
+
+.skillImg {
+  padding: 15px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  color: #281522;
+  font-size: 24px;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.myWork {
+  background-color: #DEE0CC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.work {
+  display: inline-flex;
+  text-align: center;
+  height: 628px;
+  width: 355px;
+  background-color:#281522;
+  margin: 22px;
+}
+
+.greenThumb p {
+  font-size: 16px;
+  margin: 30px;
+  line-height: 19px;
+}
+
+.nsa p {
+  font-size: 16px;
+  margin: 30px;
+  line-height: 19px;
+}
+
+.aspca p {
+  font-size: 16px;
+  margin: 30px;
+  line-height: 19px;
+}
+
+
+
 footer {
   display: flex;
   justify-content: flex-end;
@@ -101,6 +171,14 @@ footer {
   height: 60px;
   width: 100%;
   }
+
+h3 {
+  font-family: 'Aleo', serif;
+  font-size: 32px;
+  color: #DEE0CC;
+  letter-spacing: 5px;
+}
+
 
 footer ul {
   display: flex;
