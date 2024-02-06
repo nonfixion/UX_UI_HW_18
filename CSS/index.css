@@ -177,6 +177,7 @@ h3 {
   font-size: 32px;
   color: #DEE0CC;
   letter-spacing: 5px;
+  line-height: .5;
 }
 
 
@@ -197,4 +198,57 @@ footer ul {
 .foot:hover {
   cursor: pointer;
   color: #D7E788;
+  }
+
+  @media screen and (max-width: 600px) {
+   
+    h1 {
+      font-size: 2rem;
+    }
+    
+    .heroImg {
+      flex-direction: column;
+      align-items: center; 
+      margin: 30px; 
+    }
+  
+    .about {
+      width: auto; 
+      text-align: center;
+    }
+  
+    .photo {
+      margin-top: 20px; 
+    }
+  
+    .mySkills {
+      padding: 20px; 
+    }
+  
+    .skillsList {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .skill {
+      margin-bottom: 10px; 
+      width: 80%;
+    }
+  
+    .myWork {
+      padding: 20px;
+    }
+  
+    .work {
+      width: 80%; 
+    }
+  
+    footer ul {
+      justify-content: center; 
+      padding: 0;
+    }
+  
+    .foot {
+      padding: 10px 20px;
+    }
   }
